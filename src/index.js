@@ -3,7 +3,7 @@ function handler(event) {
 
     return {
         body: JSON.stringify({message: 'SUCCESS'}),
-        statusCode: 200,
+        statusCode: 201,
     };
 }
 module.exports = {handler};
